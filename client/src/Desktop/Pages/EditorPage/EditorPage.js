@@ -53,7 +53,6 @@ const MainPage = () => {
   };
 
   const saveData = () => {
-    const jsonData = JSON.stringify(weekData);
     console.log(weekData)
     localStorage.setItem("Понедельник", JSON.stringify(weekData["Понедельник"]))
     localStorage.setItem("Вторник", JSON.stringify(weekData["Вторник"]))
